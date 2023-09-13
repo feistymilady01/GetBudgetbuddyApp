@@ -6,11 +6,11 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/Dkemzy/alx-webstack-portfolio-project/">
+  <a href="https://github.com/feistymilady01/Webstack---Portfolio-Project/">
     <img src="/static/images/logo.png" alt="Logo" width="600" height="250">
   </a>
 
-  <h3 align="center">Expense Tracking</h3></h3>
+  <h3 align="center">Budget Buddy Tracking</h3></h3>
 
   <p align="center">
     An App To Track Expenses
@@ -21,9 +21,9 @@
     ·
     <a href="">Blog Article</a>
     .
-    <a href="https://github.com/Dkemzy/alx-webstack-portfolio-project/issues">Report Issues</a>
+    <a href="https://github.com/feistymilady01/Webstack---Portfolio-Project/issues">Report Issues</a>
     ·
-    <a href="https://github.com/Dkemzy/alx-webstack-portfolio-project/issues">Request Feature</a>
+    <a href="https://github.com/feistymilady01/Webstack---Portfolio-Project/issues">Request Feature</a>
   </p>
 </div>
 
@@ -46,11 +46,11 @@ Final Project Blog Article: [Blog Article]()
 
 ### Authors
 
-Robert Njonjo - [Github](https://github.com/M1urray) / [Linkedin](https://www.linkedin.com/in/robert-njonjo)
+Susan Bamgbade - [Github](https://github.com/feistymilady01) / [Email](pricelessblinks@gmail.com) /[Linkedin](https://www.linkedin.com/in/)
 
-Dennis Kamau - [Github](https://github.com/Dkemzy) / [Linkedin](https://www.linkedin.com/in/kamau-dennis-b3155b153)
+Lovina - [Github](https://github.com/) / [Email](mails4vina@gmail.com) / [Linkedin](https://www.linkedin.com/in/)
 
-Rim EL FILALI - [Github](https://github.com/Rima119) / [Linkedin](https://www.linkedin.com/in/rim-el-filali-0710a6269/)
+Jude - [Github](https://github.com/) / [Email](Nwabudikejude1@gmail.com) / [Linkedin](https://www.linkedin.com/in/)
 
 ### Built With
 
@@ -104,13 +104,13 @@ or *RUN The Program Directly*
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/Dkemzy/alx-webstack-portfolio-project.git
+git clone https://github.com/feistymilady01/Webstack---Portfolio-Project/
 ```
 
 2. Navigate to the project directory:
 
 ```shell
-cd alx-webstack-portfolio-project
+cd Webstack---Portfolio-Project
 ```
 3. Run the application:
 
@@ -173,13 +173,13 @@ Thank you for your suggestions!
 
 This project is licensed under the [MIT License](https://github.com/Dkemzy/alx-webstack-portfolio-project/blob/main/LICENSE) - see the LICENSE file for details.
 
-[contributors-shield]: https://img.shields.io/github/contributors/Dkemzy/alx-webstack-portfolio-project.svg?style=for-the-badge
-[contributors-url]: https://github.com/Dkemzy/alx-webstack-portfolio-project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Dkemzy/alx-webstack-portfolio-project.svg?style=for-the-badge
-[forks-url]: https://github.com/Dkemzy/alx-webstack-portfolio-project/forks
-[stars-shield]: https://img.shields.io/github/stars/Dkemzy/alx-webstack-portfolio-project.svg?style=for-the-badge
-[stars-url]: https://github.com/Dkemzy/alx-webstack-portfolio-project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Dkemzy/alx-webstack-portfolio-project.svg?style=for-the-badge
-[issues-url]: https://github.com/Dkemzy/alx-webstack-portfolio-project/issues
-[license-shield]: https://img.shields.io/github/license/Dkemzy/alx-webstack-portfolio-project.svg?style=for-the-badge
-[license-url]: https://github.com/Dkemzy/alx-webstack-portfolio-project/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/feistymilady01/Webstack---Portfolio-Project.svg?style=for-the-badge
+[contributors-url]: https://github.com/feistymilady01/Webstack---Portfolio-Project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/feistymilady01/Webstack---Portfolio-Project.svg?style=for-the-badge
+[forks-url]: https://github.com/feistymilady01/Webstack---Portfolio-Project/forks
+[stars-shield]: https://img.shields.io/github/stars/feistymilady01/Webstack---Portfolio-Project.svg?style=for-the-badge
+[stars-url]: https://github.com/feistymilady01/Webstack---Portfolio-Project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/feistymilady01/Webstack---Portfolio-Project.svg?style=for-the-badge
+[issues-url]: https://github.com/feistymilady01/Webstack---Portfolio-Project/issues
+[license-shield]: https://img.shields.io/github/license/feistymilady01/Webstack---Portfolio-Project.svg?style=for-the-badge
+[license-url]: https://github.com/feistymilady01/Webstack---Portfolio-Project/blob/main/LICENSE
