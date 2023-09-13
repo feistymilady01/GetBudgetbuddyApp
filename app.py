@@ -1,18 +1,10 @@
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 from flask import Blueprint, render_template, flash, redirect, url_for, request
 from flask_login import login_required, current_user
 from datetime import datetime
 from . import __init__
 from . import forms
 from . import models
-
-
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = (
-    f"{db_CONNECTION}://{db_USERNAME}:{db_PASSWORD}@{db_HOST}:{db_PORT}/{db_DATABASE}"
-)
-db = SQLAlchemy(app)
+from . import create_app
 
 main = Blueprint('main', __name__)
 

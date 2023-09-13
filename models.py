@@ -1,7 +1,10 @@
-from . import app
 from flask_login import UserMixin
-from . import __init__
 from datetime import datetime
+from . import __init__
+from flask import current_app
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
 
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True) # primary keys are required by SQLAlchemy

@@ -3,3 +3,4 @@ instances
 package-lock.json
 package.json
 .env
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://sgpostgres:qijmneGeUlm8TGa@localhost:5432/gentle-beam-9319'

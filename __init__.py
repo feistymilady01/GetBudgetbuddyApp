@@ -2,6 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from dotenv import load_dotenv
+from . import models
 
 # Load the .env file from the current directory
 load_dotenv()
@@ -16,7 +17,6 @@ db_DATABASE = os.getenv("db_DATABASE")
 db_USERNAME = os.getenv("db_USERNAME")
 db_PASSWORD = os.getenv("db_PASSWORD")
 
-db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__) # creates the Flask instance, __name__ is  
@@ -30,7 +30,7 @@ def create_app():
                    #will be saved
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False 
                    # deactivate Flask-SQLAlchemy track modifications
-    db.init_app(app) # Initialiaze sqlite database
+    db = SQLAlchemy(app) # Initialiaze sqlite database
     # The login manager contains the code that lets your application    
     # and Flask-Login work together
     login_manager = LoginManager() # Create a Login Manager instance
@@ -53,3 +53,4 @@ def create_app():
     from main import main as main_blueprint
     app.register_blueprint(main_blueprint)
     return app
+    
