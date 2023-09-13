@@ -1,15 +1,31 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
+from dotenv import load_dotenv
+
+# Load the .env file from the current directory
+load_dotenv()
+
+# You can access environment variables as usual
+import os
+
+db_CONNECTION = os.getenv("db_CONNECTION")
+db_HOST = os.getenv("db_HOST")
+db_PORT = os.getenv("db_PORT")
+db_DATABASE = os.getenv("db_DATABASE")
+db_USERNAME = os.getenv("db_USERNAME")
+db_PASSWORD = os.getenv("db_PASSWORD")
 
 db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__) # creates the Flask instance, __name__ is  
                           # the name of the current Python module
-    app.config['SECRET_KEY'] = 'secret-key-goes-here' # it is used 
+    app.config['SECRET_KEY'] = (f"{db_PASSWORD}") # it is used 
                          #by Flask and extensions to keep data safe
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite' 
+    app.config['SQLALCHEMY_DATABASE_URI'] = (
+    f"{db_CONNECTION}://{db_USERNAME}:{db_PASSWORD}@{db_HOST}:{db_PORT}/{db_DATABASE}"
+) 
                    #it is the path where the SQLite database file 
                    #will be saved
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False 
