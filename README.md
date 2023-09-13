@@ -71,7 +71,7 @@ To use the Expense Tracker, follow these steps:
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/Dkemzy/alx-webstack-portfolio-project.git
+git clone https://github.com/feistymilady01/Webstack---Portfolio-Project.git
 ```
 
 2. Navigate to the project directory:
