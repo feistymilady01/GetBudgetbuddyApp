@@ -3,9 +3,8 @@ instances
 package-lock.json
 package.json
 .env
-venv
 templates
-app
-auth
-models 
-requirements
+app.py
+auth.py
+models.py 
+requirements.txt
