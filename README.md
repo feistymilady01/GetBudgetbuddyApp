@@ -89,6 +89,9 @@ npm install
 - Rename the .env.example file to .env and update the DB_CONNECTION configuration with your database credentials.
 
 5. Run the database migrations:
+```
+pip install -r requirements.txt (2x)
+```
 
 ``` shell
 npm run migrate

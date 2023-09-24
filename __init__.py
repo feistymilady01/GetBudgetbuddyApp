@@ -23,9 +23,7 @@ def create_app():
                           # the name of the current Python module
     app.config['SECRET_KEY'] = (f"{db_PASSWORD}") # it is used 
                          #by Flask and extensions to keep data safe
-    app.config['SQLALCHEMY_DATABASE_URI'] = (
-    f"{db_CONNECTION}://{db_USERNAME}:{db_PASSWORD}@{db_HOST}:{db_PORT}/{db_DATABASE}"
-) 
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://sgpostgres:qijmneGeUlm8TGa@localhost:5432/gentle-beam-9319' 
                    #it is the path where the SQLite database file 
                    #will be saved
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False 

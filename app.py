@@ -5,6 +5,7 @@ from . import __init__
 from . import forms
 from . import models
 from . import create_app
+from .models import User
 
 main = Blueprint('main', __name__)
 
