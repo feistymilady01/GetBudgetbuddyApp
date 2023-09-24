@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/feistymilady01/Webstack---Portfolio-Project/">
-    <img src="/static/images/logo.png" alt="Logo" width="600" height="250">
+    <img src="[/static/images/logo.png](https://github.com/feistymilady01/GetBudgetbuddyApp/blob/master/Getapp_Alx.PNG)" alt="Logo" width="600" height="250">
   </a>
 
   <h3 align="center">Budget Buddy Tracking</h3></h3>
