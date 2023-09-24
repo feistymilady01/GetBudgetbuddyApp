@@ -4,3 +4,8 @@ package-lock.json
 package.json
 .env
 venv
+templates
+app
+auth
+models 
+requirements
