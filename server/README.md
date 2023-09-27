@@ -5,6 +5,9 @@ To obtain the skeletal structure for the package
 
 npx create-react-app 
 
+Please specify the project directory:
+create-react-app GetBudgetbuddyApp
+
 # on the server directory
 
 Now install Express in the server application and save it in the dependencies list using the following command on the terminal.
@@ -19,13 +22,13 @@ HTTP request using Axios in React
 
 Then we need to install the Axios to our client application which helps us make HTTP requests to HTTP servers. To install the Axios module, we can use the following command.
 
-npm i --save axios
+npm install --save axios
 
 Setting up CORS with Express
 
 We need to install the cors to our server application. CORS is an acronym for Cross-Origin Resource Sharing. It is a mechanism to allow or restrict requested resources on a web server depending on where the HTTP request originated. In other words, CORS is a browser security feature that restricts cross-origin HTTP requests with other servers and specifies which domains can access your resources. The CORS javascript module can be installed using the below command.
 
-npm i — save cors
+npm install -- save cors
 
 
 2. Implementing the Sessions and Cookies
@@ -42,6 +45,8 @@ JWT represents a compact and self-contained method for securely transmitting inf
 npm install --save jsonwebtoken
 
 To spin up the containers
+
+first login on docker hub
 
 docker-compose build
 
