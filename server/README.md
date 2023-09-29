@@ -70,3 +70,11 @@ Here's the typical workflow for using these commands:
 
 Make sure you are in the directory where your docker-compose.yml file is located when running these commands.
 
+## login into the site using : localhost:3000
+
+## login into the database using : localhost:8080
+
+#create a table with 5 rows: 
+  -making sure the id is automated
+  -the fullname and the password is VARCHAR length is 20 or 50
+  -coalition of the whole table is utf8_general_ci

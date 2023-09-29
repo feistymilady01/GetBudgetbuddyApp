@@ -86,6 +86,8 @@ app.get("/login", (req, res) => {
 app.post('/register', (req, res) => {
     const username = req.body.username;
     const password = req.body.password;
+    const fullname = req.body.fullname;
+    const email = req.body.email;
 
     // Check if the username already exists in the database
     db.execute(
@@ -101,8 +103,8 @@ app.post('/register', (req, res) => {
             } else {
                 // Username is unique, proceed with registration
                 db.execute(
-                    "INSERT INTO users (username, password) VALUES (?, ?)",
-                    [username, password], // Store the plain text password
+                    "INSERT INTO users (fullname, email, username, password) VALUES (?, ?, ?, ?)",
+                    [fullname,email,username, password], // Store the plain text password
                     (err, result) => {
                         if (err) {
                             console.log(err);
